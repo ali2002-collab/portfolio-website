@@ -22,13 +22,12 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill={"React JS"}/>
         <SkillList src={checkMarkIcon} skill={"React Native"}/>
         <SkillList src={checkMarkIcon} skill={"Java"}/>
-        <SkillList src={checkMarkIcon} skill={"C#"}/>
         <SkillList src={checkMarkIcon} skill={"C"}/>
+        <SkillList src={checkMarkIcon} skill={"Rapid API"}/>
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill={"Git"}/>
-        <SkillList src={checkMarkIcon} skill={"Rapid API"}/>
         <SkillList src={checkMarkIcon} skill={"EXPO"}/>
         <SkillList src={checkMarkIcon} skill={"SCSS"}/>
         <SkillList src={checkMarkIcon} skill={"Bootstrap"}/>

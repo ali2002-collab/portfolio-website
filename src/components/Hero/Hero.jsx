@@ -3,19 +3,19 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.webp';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
+import instagramLight from '../../assets/instagram-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
+import instagramDark from '../../assets/instagram-dark.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
     const {theme, toggleTheme} = useTheme();
     const themeIcon = theme === 'light' ? sun : moon;
-    const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+    const instagramIcon = theme === 'light' ? instagramLight : instagramDark;
     const githubIcon = theme === 'light' ? githubLight : githubDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
     
@@ -27,10 +27,10 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>Ali<br/>Hassan</h1>
-        <h2>Frontend Developer</h2>
+        <h2>Software Developer</h2>
         <span>
-            <a href='https://twitter.com/' target='_blank'>
-                <img src={twitterIcon} alt='Twitter icon' />
+            <a href='https://www.instagram.com/_artsbyali_/' target='_blank'>
+                <img src={instagramIcon} alt='Instagram icon' />
             </a>
             <a href='https://github.com/ali2002-collab' target='_blank'>
                 <img src={githubIcon} alt='Github icon' />
@@ -39,7 +39,7 @@ function Hero() {
                 <img src={linkedinIcon} alt='Linkedin icon' />
             </a>
         </span>
-        <p className={styles.description}>I geek out over crafting beautiful, responsive, and user-friendly experiences that go beyond just the front-end.</p>
+        <p className={styles.description}>I geek out over creating intuitive, dynamic experiences while expanding my skills behind the scenes.</p>
         <a href={CV} download>
             <button className='hover'>Resume</button>
         </a>
