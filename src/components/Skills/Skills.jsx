@@ -16,13 +16,15 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill={"Tailwind CSS"}/>
         <SkillList src={checkMarkIcon} skill={"JavaScript"}/>
         <SkillList src={checkMarkIcon} skill={"TypeScript"}/>
+        <SkillList src={checkMarkIcon} skill={"React JS"}/>
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill={"React JS"}/>
         <SkillList src={checkMarkIcon} skill={"React Native"}/>
+        <SkillList src={checkMarkIcon} skill={"C#"}/>
         <SkillList src={checkMarkIcon} skill={"Java"}/>
         <SkillList src={checkMarkIcon} skill={"C"}/>
+        <SkillList src={checkMarkIcon} skill={"MySQL"}/>
         <SkillList src={checkMarkIcon} skill={"C++ (Beginner)"}/>
         <SkillList src={checkMarkIcon} skill={"Python (Beginner)"}/>
       </div>
