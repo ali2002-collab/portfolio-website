@@ -4,13 +4,17 @@ import ProjectCard from '../../common/ProjectCard';
 import findYourJob from '../../assets/v.png';
 import webpage from '../../assets/webpage.png';
 import sql from '../../assets/sql.png';
-import carsale from '../../assets/carsale.png'
+import carsale from '../../assets/carsale.png';
+import CRM from '../../assets/CRM.png';
 
 function Projects() {
   return (
     <section id='projects' className={styles.container}>
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard src={CRM} href={"https://github.com/ali2002-collab/TogetherCultureCRM"} alt={"CRM Dashboard"}
+            h3={"CRM Dashboard"} p={"Built with C#"} 
+        />
         <ProjectCard src={findYourJob} href={"https://github.com/ali2002-collab/Find_Your_Job"} alt={"Career Quest Logo"}
             h3={"Find Your Job (APP)"} p={"Built with React Native"} 
         />
